@@ -1,0 +1,157 @@
+body 
+{
+  
+  height:15%;  
+ animation: colori 5s ease-in 0.01s infinite alternate-reverse;	
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+  margin-bottom:50px;
+  width: 25%;
+height:15%;
+  border:20px dotted blue;
+  outline: 5px solid green;
+  animation-name: raj;
+  animation-duration:11s;
+  animation-timing-function:linear;
+  animation-delay:1s;
+  animation-iteration-count:2;
+  animation-direction:alternate-reverse;
+}
+#holi{
+ margin-top: 40px;
+}
+
+@keyframes raj{
+
+    
+    0%{
+       
+      -webkit-transform: rotateY(0deg);
+      /* -webkit-transform: rotateX(0deg); */
+       background-color: green;
+       border-color:ghostwhite;
+
+    }
+    10%{
+        
+      -webkit-transform: rotateY(30deg);
+        /* -webkit-transform: rotateX(30deg); */
+        background-color: goldenrod;
+        border-color: rebeccapurple;
+    }
+    20%{
+      
+    -webkit-transform: rotateY(60deg);
+     /* -webkit-transform: rotateX(60deg); */
+     background-color: antiquewhite;
+     border-color: black;
+    }
+    30%{
+        
+        -webkit-transform: rotateY(90deg);
+         /* -webkit-transform: rotateX(90deg); */
+         background-color: aqua;
+         border-color: blue;
+    }
+    40%{
+       
+-webkit-transform: rotateY(120deg);
+ background-color:red;
+ border-color: ghostwhite;
+    }
+    50%{
+        
+-webkit-transform: rotateY(180deg);
+         /* -webkit-transform: rotateX(180deg); */
+         background-color: yellow;
+         border-color: unset;
+    }
+    79%{
+       
+     
+    -webkit-transform: rotateY(270deg);
+     /* -webkit-transform: rotateX(270deg); */
+     background-color: hotpink;
+     border-color: khaki;
+    }
+    100%{
+        
+        -webkit-transform: rotateY(360deg);
+         /* -webkit-transform: rotateX(360deg); */
+         background-color: lightslategrey;
+         border-color: dodgerblue;
+    }
+}
+
+
+
+
+
+@keyframes colori{
+
+    
+    0%{
+       background-image: radial-gradient(olive,red,pink);
+       background-repeat: no-repeat;
+       
+
+    }
+    10%{
+             background-image: radial-gradient(red,pink,blue); 
+             background-repeat: no-repeat;
+    }
+    20%{
+             background-image: radial-gradient(blue,red,pink);
+             background-repeat: no-repeat;
+    }
+    30%{
+       background-image: radial-gradient(blue,red,yellow);
+       background-repeat: no-repeat;
+    }
+    40%{
+
+ background-image: radial-gradient(blue,green,yellow);
+ background-repeat: no-repeat;
+    }
+    50%{
+        background-image: radial-gradient(rebeccapurple,green,lightslategrey);
+        background-repeat: no-repeat;
+    }
+    75%{
+      background-repeat: no-repeat;
+      background-image: radial-gradient(crimson,deeppink,tomato,gold,lavender,lime, olive);
+    }
+    100%{
+        background-repeat: no-repeat;
+        background-image: radial-gradient(crimson,tomato,gold,lime, olive);
+    }
+}
+
+.Txt {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 30px;
+    -webkit-animation-name: ColChange;
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count:infinite;
+}
+
+
+
+@keyframes ColChange {
+    0% {color: gold; -webkit-transform: rotateY(0deg);}
+    20% {color: skyblue; }
+    40% {color: red; }
+    60% {color: lightgreen; }
+    80% {color: salmon;}
+    100% {color: gold; -webkit-transform: rotateY(360deg); }
+}
